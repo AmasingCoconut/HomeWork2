@@ -10,10 +10,10 @@ using System.Threading.Tasks;
 
 namespace C2HW2
 {
-    abstract class EmployeeBase
+    abstract class BaseEmployee
     {
         protected double salary;
-        public EmployeeBase(double salary)
+        public BaseEmployee(double salary)
         {
             this.salary = salary;
         }

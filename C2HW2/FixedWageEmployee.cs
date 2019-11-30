@@ -11,9 +11,9 @@ using System.Threading.Tasks;
 
 namespace C2HW2
 {
-    class EmployeeFixed : EmployeeBase
+    class FixedWageEmployee : BaseEmployee
     {
-        public EmployeeFixed(double salary) :base(salary)
+        public FixedWageEmployee(double salary) :base(salary)
         {
         }
 
