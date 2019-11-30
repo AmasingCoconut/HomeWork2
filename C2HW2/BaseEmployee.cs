@@ -19,5 +19,7 @@ namespace C2HW2
         }
 
         public abstract double Salary();
+
+        
     }
 }

@@ -35,7 +35,15 @@ namespace C2HW2
     {
         static void Main(string[] args)
         {
+            BaseEmployee[] employees = new BaseEmployee[4];
+            employees[0] = new SalaryEmployee(100);
+            employees[1] = new SalaryEmployee(150);
+            employees[2] = new HourlyEmployee(3);
+            employees[3] = new HourlyEmployee(5);
 
+            foreach (BaseEmployee employee in employees)
+                Console.WriteLine(employee);
+            Console.ReadKey();
         }
     }
 }
